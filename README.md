@@ -5,5 +5,5 @@ Exploits Context for Efficient Grasping Detection"
 
 The code is coming.
 ## Visualization of the architecture
-<img src="img/grasp-transformer.png" width="200" align="middle"/>
+<img src="img/grasp-transformer.png" width="500" align="middle"/>
 <br>
