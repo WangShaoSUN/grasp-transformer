@@ -65,5 +65,5 @@ Our ROS implementation for running the grasping system see [https://github.com/U
 
 The original implementation for running experiments on a Kinva Mico arm can be found in the repository [https://github.com/dougsm/ggcnn_kinova_grasping](https://github.com/dougsm/ggcnn_kinova_grasping).
 
-##Acknowledgement
+## Acknowledgement
 Code heavily inspired and modified from https://github.com/dougsm/ggcnn
