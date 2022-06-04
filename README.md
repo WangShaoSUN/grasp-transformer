@@ -50,7 +50,7 @@ python main.py   --dataset cornell
 python main_k_fold.py  --dataset cornell 
 
 #  GraspNet 1
-python main_k_fold.py 
+python main_grasp_1b.py 
 ```
 
 Trained models are saved in `output/models` by default, with the validation score appended.
