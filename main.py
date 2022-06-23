@@ -16,8 +16,8 @@ def parse_args():
 
     # Network
     # Dataset & Data & Training
-    parser.add_argument('--dataset', type=str,default="multi", help='Dataset Name ("cornell" or "jaquard")')
-    parser.add_argument('--dataset-path', type=str,default="/home/sam/Desktop/jacouard" ,help='Path to dataset')
+    parser.add_argument('--dataset', type=str,default="cornell", help='Dataset Name ("cornell" or "jaquard")')
+    parser.add_argument('--dataset-path', type=str,default="/home/sam/Desktop/cornell" ,help='Path to dataset')
     parser.add_argument('--use-depth', type=int, default=0, help='Use Depth image for training (1/0)')
     parser.add_argument('--use-rgb', type=int, default=1, help='Use RGB image for training (0/1)')
     parser.add_argument('--split', type=float, default=0.9, help='Fraction of data for training (remainder is validation)')
@@ -26,9 +26,10 @@ def parse_args():
     parser.add_argument('--num-workers', type=int, default=8, help='Dataset workers')
 
     parser.add_argument('--batch-size', type=int, default=32, help='Batch size')
+    parser.add_argument('--vis', type=bool, default=False, help='vis')
     parser.add_argument('--epochs', type=int, default=2000, help='Training epochs')
-    parser.add_argument('--batches-per-epoch', type=int, default=50, help='Batches per Epoch')
-    parser.add_argument('--val-batches', type=int, default=2, help='Validation Batches')
+    parser.add_argument('--batches-per-epoch', type=int, default=200, help='Batches per Epoch')
+    parser.add_argument('--val-batches', type=int, default=32, help='Validation Batches')
     # Logging etc.
     parser.add_argument('--description', type=str, default='', help='Training description')
     parser.add_argument('--outdir', type=str, default='output/models/', help='Training Output Directory')
@@ -107,5 +108,3 @@ def run():
 
 if __name__ == '__main__':
     run()
-
-
