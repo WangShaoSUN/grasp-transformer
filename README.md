@@ -55,7 +55,16 @@ python main_grasp_1b.py
 
 Trained models are saved in `output/models` by default, with the validation score appended.
 
+## Visualize
+Some basic examples:
+```bash
+# visulaize grasp rectangles
+python visualise_grasp_rectangle.py   --network your network address
 
+# visulaize heatmaps
+python visulaize_heatmaps.py  --network your network address
+
+```
 
 
 
