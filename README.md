@@ -76,3 +76,17 @@ The original implementation for running experiments on a Kinva Mico arm can be f
 
 ## Acknowledgement
 Code heavily inspired and modified from https://github.com/dougsm/ggcnn
+
+If you find this helpful, please cite
+```bash
+@ARTICLE{9810182,
+  author={Wang, Shaochen and Zhou, Zhangli and Kan, Zhen},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={When Transformer Meets Robotic Grasping: Exploits Context for Efficient Grasp Detection}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2022.3187261}}
+
+```
